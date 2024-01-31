@@ -25,11 +25,7 @@ namespace mission4Assignment
 
                 int col = int.Parse(Console.ReadLine());
 
-
-
                 game.MakeMove(row, col, currentPlayer);
-
-
 
                 gameEnded = game.CheckForWinner(out char winner);
 
