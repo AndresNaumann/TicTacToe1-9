@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace mission4Assignment
+namespace TicTacToe
 {
     internal class TicTacToeGame
     {
 
         private char[,] board = new char[3, 3];
-        //Console.WriteLine("Welcome to Tic-Tac-Toe!");
 
         public TicTacToeGame()
         {
@@ -102,5 +101,3 @@ namespace mission4Assignment
         }
     }
 }
-
-
